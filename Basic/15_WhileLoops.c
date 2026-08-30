@@ -6,6 +6,8 @@ int main(){
     //              Condition must be true for us to enter while loop
 
     int number = 0;
+    printf("Enter a number: ");
+    scanf("%d",&number);
 
     while(number <= 0){
         printf("Enter a number greater than 0: ");
